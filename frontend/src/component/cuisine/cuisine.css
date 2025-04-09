@@ -1,0 +1,80 @@
+.cuisine-container {
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .commande-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .commande-carte {
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    padding: 20px;
+    width: 320px;
+    background-color: #fdfdfd;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+    text-align: left;
+    position: relative;
+  }
+  
+  .ligne-haut {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .emoji {
+    font-size: 2rem;
+  }
+  
+  .texte {
+    flex: 1;
+  }
+  
+  .texte h4 {
+    margin: 0;
+  }
+  
+  .boutons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .statut {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  
+  .pret {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .annuler {
+    margin-top: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 100%;
+  }
+  

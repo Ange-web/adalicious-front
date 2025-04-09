@@ -1,0 +1,23 @@
+
+.accueil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .bouton-cuisine {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: #222;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  

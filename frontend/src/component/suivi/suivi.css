@@ -1,0 +1,42 @@
+.suivi-container {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    padding: 30px;
+  }
+  
+  .suivi-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+  
+  .suivi-container h3 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .suivi-carte {
+    border: 2px solid #aaa;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 260px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statut {
+    color: green;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .emoji {
+    font-size: 3rem;
+  }
+  
+  .plat {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
