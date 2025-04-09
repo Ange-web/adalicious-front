@@ -5,7 +5,7 @@ export default function CommandeCarte({ commande, onRemove }) {
   const [statut, setStatut] = useState(commande.statut);
 
   const changerStatut = (nouveauStatut) => {
-    fetch(`http://localhost:3000/commandes/${commande.id}/statut`, {
+    fetch(`${import.meta.env.VITE_API_URL}/commandes/${commande.id}/statut`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ statut: nouveauStatut })
