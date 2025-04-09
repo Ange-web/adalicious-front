@@ -6,7 +6,7 @@ export default function VueCuisine() {
   const [commandes, setCommandes] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/commande')
+     fetch(`${import.meta.env.VITE_API_URL}/commande`)
       .then(res => res.json())
       .then(data => setCommandes(data))
       .catch(err => console.error("Erreur chargement commandes :", err));
